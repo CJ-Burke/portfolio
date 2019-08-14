@@ -1,0 +1,98 @@
+.name{
+  text-align: right;
+  font: 2em bookman;
+  color: #001485;
+  /*background: linear-gradient(to bottom right, #d0c8db 45%, #cc66ff 85%);*/
+  padding: .5% 4% 0% 2%;
+}
+
+.logo{
+  float: left;
+
+}
+
+#frontend {
+  font-style: italic;
+}
+
+#featured-work {
+  text-align:center;
+  color: #001485;
+}
+
+/* #main-image {
+  display: block;
+  margin: auto;
+  width: 50%;
+} */
+
+.webpage{
+  background: linear-gradient(to bottom right, #d0c8db 45%, #cc66ff 85%);
+  margin: 1% 5% 1% 5%;
+  padding: 2%;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 1% 2% 1% 2%;
+  position: relative;
+}
+
+.flex-container .content{
+ /*position: relative;
+ top: 0;
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, .5);
+ color: #f1f1f1;
+ width:inherit;
+ padding: 1%;*/
+ position: relative;
+bottom: 25%;
+left: 16px;
+font-size: 14px;
+}
+
+.projects {
+  border: outset 3px #d0c8db;
+  width:300px;
+  height:200px;
+}
+
+/*.contact-flex {
+  display:flex;
+  flex-direction: row-reverse;
+  float: left;
+  margin: 1%;
+  padding: 0;
+  position:relative;
+}*/
+
+.responsive {
+  max-width:100%;
+  height: auto;
+}
+
+.thanks{
+  text-align: right;
+}
+
+@media screen and (max-width: 360px){
+  .name {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 361px){
+  .name{
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 680px){
+  .name{
+    font-size: 2em;
+  }
+}
